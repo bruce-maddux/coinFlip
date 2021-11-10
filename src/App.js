@@ -1,10 +1,10 @@
 import './App.css';
 import React from 'react'
 import { render } from 'react-dom';
-import tailCoin from './tailCoin.jpg'
-import headCoin from './headcoin.jpg'
-import downCoin from './downcoin.jfif'
-import sideCoin from './sidecoin.jfif'
+import tailCoin from './assets/tailCoin.jpg'
+import headCoin from './assets/headcoin.jpg'
+import downCoin from './assets/downcoin.jfif'
+import sideCoin from './assets/sidecoin.jfif'
 
 class App extends React.Component {
   constructor(props) {
