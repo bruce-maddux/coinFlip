@@ -29,7 +29,7 @@ class App extends React.Component {
         </h1>
         <img src = {this.urlLink} className = "App-img"></img>
         <button onClick={this.handleClick.bind(this)}>Click</button>
-        <div>The number is: {this.state.random}</div>
+        {/*<div>The number is: {this.state.random}</div>*/}
         <div>Heads or Tails : {this.state.val}</div>
 
       </div>
